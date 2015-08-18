@@ -1,0 +1,45 @@
+header {
+  height: 54px;
+  width: 100%;
+  background: #13171B;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 990;
+}
+
+body a {
+	color:red;
+}
+header .logo {
+  margin-left: 36px;
+  margin-right: 88px;
+  margin-top: 9px;
+  float: left;
+  width: auto; 
+  z-index: 991; 
+  position: relative; 
+}
+header .logo a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 64px;
+  height: 18px;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: 'montserrat-bold', sans-serif;
+  color:yellow;
+}
+
+ul#nav li {
+  position: relative;
+  list-style: none;
+  height: 54px;
+  display: inline-block;
+
+}
+
+ul#nav li a {
+
+}
